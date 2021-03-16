@@ -29,10 +29,10 @@ function Directory(props) {
         <div className="container">
             <div className="row">
                 <div className="col">
-                    <Breadcrumb>
-                        <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
-                        <BreadcrumbItem active>Directory</BreadcrumbItem>
-                    </Breadcrumb>
+                <Breadcrumb>
+                    <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
+                    <BreadcrumbItem active>Directory</BreadcrumbItem>
+                </Breadcrumb>
                     <h2>Directory</h2>
                     <hr />
                 </div>
